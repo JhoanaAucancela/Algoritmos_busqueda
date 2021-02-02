@@ -21,7 +21,7 @@ int main() {
   cin>>dato;
   archivo<<"El numero a buscar: "<<dato<<endl;
   if(busqueda(arreglo, t, dato)==-1){
-      cout<<"Elemento no encontrado";
+      cout<<"Elemento no encontrado\n";
       archivo<<"Elemento no encontrado\n";
     }
   else {cout<<"Elemento encontrado en la posicion: "<<busqueda(arreglo, t, dato)<<endl;
